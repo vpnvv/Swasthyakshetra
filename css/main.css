@@ -568,12 +568,12 @@ margin-left: 10px;
 .slider-text li:last-child a:before{
 	color:#ffffff
 }
-.slider-text li a:hover{background:#a95924; color: #ffffff; transition: all 0.8s ease 0s;border-color:#ffffff; padding: 10px 30px;}
+.slider-text li a:hover{background:#a95924; color: #ffffff; transition: all 0.8s ease 0s;border-color:#ffffff; }
 .slider-text li:last-child a {
 	background: transparent;
 	color: #ffffff;
 }
-.slider-text li:last-child a:hover{background:rgba(235, 235, 235, 0.301); transition: all 0.4s ease 0s;border:1px solid #fff; padding: 10px 30px;}
+.slider-text li:last-child a:hover{background:rgba(235, 235, 235, 0.301); transition: all 0.4s ease 0s;border:1px solid #fff;}
 .all-slide .owl-controls {
 position: absolute;
 top: 45%;

@@ -640,7 +640,7 @@ display:none;
 
 @media only screen and (min-width: 0px) and (max-width: 492px) {
 .slider-text h1 {
-	font-size: 28px;
+	font-size: 25px;
 	line-height: 40px;
 }
 .slider-text ul{margin-top:40px;}
