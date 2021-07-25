@@ -1207,14 +1207,14 @@ transition: all 0.4s ease 0s;
 	transition: all 0.4s ease 0s;
 	background: #f1c40f;
 }
-.gallery-overlay-text .gallery-button a i:hover{background:#fff;border-color:#011e40;transition: all 0.4s ease 0s;}
+.gallery-overlay-text .gallery-button a i:hover{background:#fff;border-color:#ffffff;transition: all 0.4s ease 0s;}
 .gallery-load-more-btn {
 	text-align: center;
 	margin-top:20px;
 }
 .gallery-load-more-btn a{
-	background: #f6c405;
-	color: #011e40;
+	background: #a95924e0;
+	color: #ffffff;
 	display: inline-block;
 	padding: 10px 26px;
 	text-transform: capitalize;
@@ -1226,7 +1226,8 @@ transition: all 0.4s ease 0s;
 	transition: all 0.4s ease 0s;
 }
 .gallery-load-more-btn a:hover{
-	background: #f9ce2c;
+	background: #a95924;
+
 }
 .gallery-load-more-btn a::before {
 	content: "\f178";
@@ -1234,7 +1235,7 @@ transition: all 0.4s ease 0s;
 	float: right;
 	top: 0px;
 	position: relative;
-	color: #011e40;
+	color: #ffffff;
 	padding-left: 10px;
 	transition: all 0.4s ease 0s;
 	margin-left: 10px;
@@ -1299,7 +1300,7 @@ transition: all 0.4s ease 0s;
 	text-transform: capitalize;
 }
 .why-choose-inner:hover .why-choose-text h2 a{
-	color:#f1c40f
+	color:#a95924;
 }
 .why-choose-icon {
 	position: absolute;
@@ -3044,9 +3045,9 @@ Home 2
 	display:none;
 }
 .home-v2  .course-sec{
-	background: #011e40 none repeat scroll 0 0;
+	background: #011e40 repeat scroll 0 0;
 	background-image: url(../img/course-bg.jpg);
-	background-repeat: no-repeat;
+	background-repeat: repeat;
 	background-position: center center;
 	background-size: cover;
 	position: relative;
@@ -3331,7 +3332,7 @@ color: #011e40;
 	color: #fff;
 }
 .home-v5 .why-choose-us-sec .why-choose-text:hover.why-choose-text h2 a {
-	color:#f1c40f;
+	color:#a95924;
 }
 .home-v5 .about-us-sec {
 	background: #f2f2f2;
