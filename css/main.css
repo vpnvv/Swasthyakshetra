@@ -2944,8 +2944,11 @@ text-align: center;
 width: 60px;
 }
 .research-item .media {
-	box-shadow: 0 0 4px 0px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 0 15px 5px rgb(0 0 0 / 10%);
 	margin-bottom: 30px;
+}
+.research-item .media {
+	background-color: white;
 }
 .research-inner-text {
 	padding: 10px;
@@ -3551,6 +3554,8 @@ color: #f1c40f
 	font-weight: 600;
 	font-size: 15px;
 }
+
+
 .commentar-sec.author ul li {
   display: inline-block;
   margin-right: 20px;
@@ -4291,3 +4296,7 @@ text-align: center;
 		list-style: none;
 		font-size: 22px;
 	}
+
+.media-body{
+	color: white;
+}
