@@ -644,6 +644,7 @@ transition: all 0.5s ease-out 0s;background:rgba(169, 89, 36, 0);color:#fff;bord
 	text-transform: capitalize;
 	position: relative;
 	margin-bottom: 30px;
+	color: #a95924;
 }
 .about-desc h1::before {
 	content: "";
@@ -765,6 +766,7 @@ background-color: rgba(0, 0, 0, 0.10);}
 .course-sec.index2-course.course-slider .sec-title h1 {
 	color: #011e40;
 }
+
 .course-sec-image {
 	background: #011e40 none repeat scroll 0 0;
 	padding: 190px 0;
@@ -1042,14 +1044,14 @@ transition: all 0.5s ease-out 0s;background:#fff;color:#011e40;border-color:#fff
 .count-up-sec {
 background: #011e40 none repeat scroll 0 0;
 padding: 76px 0;
-background-image: url(../img/count_up_bg.jpg);
+background-image: url(../img/banner/6.png);
 background-repeat: no-repeat;
 background-position: center center;
 background-size: cover;
 position: relative;
 background-attachment:fixed;
 }
-.count-up-sec-overlay{background-color: rgba(34, 37, 58, 0.95);
+.count-up-sec-overlay{background-color: rgba(34, 37, 58, 0.637);
 height: 100%;
 left: 0;
 position: absolute;
@@ -1407,8 +1409,8 @@ visibility:visible;bottom:0px;
 	position: absolute;
 	width: 100%;
 	bottom: -50%;
-	background: #f1c40f;
-	text-align: left;
+	background: #a95924;
+	text-align: center;
 	padding-left: 10px;
 	visibility:hidden;
 	transition: all 0.4s ease-in-out 0s;
@@ -1422,26 +1424,29 @@ visibility:visible;bottom:0px;
   margin-top: 20px;
   text-transform: uppercase;transition: all 0.4s ease-in-out 0s;
   color:#011e40;
+  text-align: center;
 }
 .instructor-member  h3 {
   font-size: 14px;
   text-transform: capitalize;transition: all 0.4s ease-in-out 0s;
+  text-align: center;
+  color: #292929;
 }
 .instructor-overlay li a {
 	display: inline-block;
-	color: #011e40;
-	text-align: left;
+	color: #ffffff;
+	text-align: center;
 	line-height: 30px;
 	margin-right: 14px;
 }
 .instructor-overlay li{
 	display: inline-block;	
-	text-align: left;	
+	text-align: center;	
 	padding:5px 0;	
 }
 .instructor-social li a {
 	display: inline-block;
-	text-align: left;
+	text-align: center;
 	line-height: 30px;
 	margin-right: 2px;
 	width: 30px;
@@ -2684,10 +2689,10 @@ width: 100%;
 	width: 60px;
 	height: 60px;
 	margin-right: 10px;
-	background: #fab909;
+	background: #a95924;
 	text-align: center;
 	line-height: 60px;
-	color: #011e40;
+	color: #ffffff;
 }
 .faq-single .media-body h2 {
 	font-size: 20px;
