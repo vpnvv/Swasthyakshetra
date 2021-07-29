@@ -2208,10 +2208,12 @@ h1.join-us-form-title {
 	text-align: center;
 }
 .contact-page-sec .contact-page-form h2 {
-	color: #011e40;
+	color: #a95924;
 	text-transform: capitalize;
-	font-size: 22px;
+	font-size: 32px;
 	font-weight: 700;
+	text-align: center;
+	
 }
 .contact-page-form .col-md-6.col-sm-6.col-xs-12 {
   padding-left: 0;
@@ -2229,14 +2231,14 @@ h1.join-us-form-title {
 }
 .contact-info-icon i {
 	font-size: 30px;
-	color: #011e40;
+	color: #a95924;
 }
 .contact-info-text {
 	padding-left: 50px;
 	margin-bottom: 40px;
 }
 .contact-info-text h2 {
-	color: #011e40;
+	color: #a95924;
 	font-size: 20px;
 	text-transform: capitalize;
 	font-weight: 700;
@@ -2255,6 +2257,8 @@ h1.join-us-form-title {
   margin-bottom: 20px;
   padding: 10px;
   width: 100%;color:#999999;
+  box-shadow: 0 0 15px 5px rgb(0 0 0 / 10%);
+
 }
 
 .contact-page-form .message-input {
@@ -2267,24 +2271,27 @@ padding-left: 0;
 	width: 100%;
 	height: 120px;
 	padding: 10px;
+	box-shadow: 0 0 15px 5px rgb(0 0 0 / 10%);
 }
 .single-input-fieldsbtn input[type="submit"] {
-	background: #f1c40f none repeat scroll 0 0;
-	border: 1px solid #f1c40f;
-	color: #011e40;
+	background: #a95924de none repeat scroll 0 0;
+	border: 1px solid #a95924de;
+	color: #ffffff;
 	display: inline-block;
 	font-weight: 600;
 	padding: 10px 0;
 	text-transform: capitalize;
-	width: 150px;
+	width: 250px;
 	margin-top: 20px;
 	font-size: 16px;
+	box-shadow: 0 0 15px 5px rgb(0 0 0 / 10%);
 }
-.single-input-fieldsbtn input[type="submit"]:hover{background:#f1c40f;transition: all 0.4s ease-in-out 0s;border-color:#f1c40f}
+.single-input-fieldsbtn input[type="submit"]:hover{background:#a95924;transition: all 0.4s ease-in-out 0s;border-color:#a95924}
 .single-input-field  h4 {
   color: #464646;
   text-transform: capitalize;
   font-size: 14px;
+  box-shadow: 0 0 15px 5px rgb(0 0 0 / 10%);
 }
 .contact-page-form {
 	display: inline-block;
@@ -2489,12 +2496,14 @@ padding-left: 0;
 	color: #f4f4f4;
 	padding: 10px 0;
 	border-radius: 0;
+	box-shadow: 0 0 15px 5px rgb(0 0 0 / 10%);
 }
 .review-form .contact-field .single-input-field input[type="text"]::-webkit-input-placeholder {
-color:#f4f4f4;opacity:1
+color:#f4f4f4;opacity:1;
+box-shadow: 0 0 15px 5px rgb(0 0 0 / 10%);
 }
 .review-form .contact-field .single-input-field input[type="email"]::-webkit-input-placeholder {
-color:#f4f4f4;opacity:1
+color:#f4f4f4;opacity:1; box-shadow: 0 0 15px 5px rgb(0 0 0 / 10%);
 }
 .review-form .contact-field .single-input-field textarea::-webkit-input-placeholder {
 color:#f4f4f4;opacity:1
