@@ -215,6 +215,8 @@ padding-top: 11px;
 	right: 20px;
 	top: 6px;
 }
+
+
 .header-left li:last-child:before{
 	display:none;
 }
@@ -265,7 +267,7 @@ border-radius:100%}
 .social-title {
 	display: inline-block;
 	color: #ffffff;
-	font-weight: 500;
+	
 }
 .menu-center {
 	text-align: right;
@@ -3808,7 +3810,7 @@ position: relative;color:#c0bcbc;padding-right:10px}
   padding-bottom: 10px;
   display: inline-block;
 }
-.footer-widget-menu li a:hover{color:#f1c40f;transition: all 0.4s ease 0s;}
+.footer-widget-menu li a:hover{color:#ffffff;transition: all 0.4s ease 0s;}
 .footer-wedget-four .inner-text {
 	color: #c0bcbc;
 }
