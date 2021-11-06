@@ -657,18 +657,22 @@ transition: all 0.5s ease-out 0s;background:rgba(169, 89, 36, 0);color:#fff;bord
 	background: #a95924;
 }
 .about-desc a.about-btn {
-	background: #aa5b27e7;
+	background: #ffffffe7;
+	border: 1px solid #a95924;
 	padding: 10px 26px;
 	display: inline-block;
 	font-weight: 600;
 	text-transform: capitalize;
-	color: #ffffff;
+	color: #a95924;
 	position: relative;
+	text-decoration: none;
+	text-align: center;
 }
 
 .about-desc a.about-btn:hover{
 	background: #a95924;
-	padding: 10px 30px;
+	color: white;
+	
 
 }
 
@@ -1218,8 +1222,9 @@ transition: all 0.4s ease 0s;
 	margin-top:20px;
 }
 .gallery-load-more-btn a{
-	background: #a95924e0;
-	color: #ffffff;
+	background: #ffffffe0;
+	border: 1px solid #a95924;
+	color: #a95924;
 	display: inline-block;
 	padding: 10px 26px;
 	text-transform: capitalize;
@@ -1229,9 +1234,11 @@ transition: all 0.4s ease 0s;
 	font-weight: 600;
 	position: related;
 	transition: all 0.4s ease 0s;
+	text-decoration: none;
 }
 .gallery-load-more-btn a:hover{
 	background: #a95924;
+	color: white;
 
 }
 .gallery-load-more-btn a::before {
